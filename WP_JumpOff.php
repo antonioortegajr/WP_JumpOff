@@ -46,7 +46,12 @@ function wp_jump_off_func( WP_REST_Request $request ){
 return '{"example":"test"}';
 }
 
+//Short Code
+function my_own_short_code() {
+	echo 'YOU added this with a short code.';
 
+}
+add_shortcode('add_shorty','my_own_short_code');
 
 
 ?>
