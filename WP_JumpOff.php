@@ -56,7 +56,7 @@ add_shortcode('add_shorty','my_own_short_code');
 //add block
 function myBlock() {
     wp_enqueue_script(
-        'gutenberg-boilerplate-es5-step01',
+        'gutenberg-block',
         plugins_url( 'block.js', __FILE__ ),
         array( 'wp-blocks', 'wp-element' )
     );
