@@ -1,6 +1,6 @@
 # WP JumpOff
 
-This plugin creates an enqueued script, an enqueued style, custom WP API route.
+This plugin creates an enqueued script, an enqueued style, custom WP API route, and a gutenberg block.
 
 To do still:
 
